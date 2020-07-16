@@ -62,7 +62,7 @@ public class AudioManager : MonoBehaviour {
 		s.source.Play();
 	}
 
-	///<summary>Sustitute la canción nameOut por nameIn, e indica si se hace con fade o no</summary>	
+	///<summary>Sustituye la canción nameOut por nameIn, e indica si se hace con fade o no</summary>	
 	public void ChangeTrack(string nameOut, string nameIn, bool fade, float overTime=0.5f){
         float MusicVolume =1;
         
